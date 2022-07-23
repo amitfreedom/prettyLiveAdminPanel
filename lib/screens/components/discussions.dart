@@ -23,7 +23,7 @@ class Discussions extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                'Discussions',
+                'Latest Members',
                 style: TextStyle(
                   color: textColor,
                   fontWeight: FontWeight.w700,

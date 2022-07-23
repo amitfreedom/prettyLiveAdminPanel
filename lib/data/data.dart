@@ -7,25 +7,25 @@ import 'package:responsive_admin_dashboard/models/referal_info_model.dart';
 
 List analyticData = [
   AnalyticInfo(
-    title: "Subscribers",
+    title: "Total Users",
     count: 720,
     svgSrc: "assets/icons/Subscribers.svg",
     color: primaryColor,
   ),
   AnalyticInfo(
-    title: "Post",
+    title: "Total Agency",
     count: 820,
     svgSrc: "assets/icons/Post.svg",
     color: purple,
   ),
   AnalyticInfo(
-    title: "Pages",
+    title: "Total Host",
     count: 920,
     svgSrc: "assets/icons/Pages.svg",
     color: orange,
   ),
   AnalyticInfo(
-    title: "Comments",
+    title: "Agency Earning",
     count: 920,
     svgSrc: "assets/icons/Comments.svg",
     color: green,
@@ -35,60 +35,60 @@ List analyticData = [
 List discussionData = [
   DiscussionInfoModel(
     imageSrc: "assets/images/photo1.jpg",
-    name: "Lutfhi Chan",
-    date: "Jan 25,2021",
+    name: "AMit Kumar",
+    date: "July 23,2022",
   ),
   DiscussionInfoModel(
     imageSrc: "assets/images/photo2.jpg",
-    name: "Devi Carlos",
-    date: "Jan 25,2021",
+    name: "AMit Mahto",
+    date: "July 23,2022",
   ),
   DiscussionInfoModel(
     imageSrc: "assets/images/photo3.jpg",
-    name: "Danar Comel",
-    date: "Jan 25,2021",
+    name: "Sanjay Kumar",
+    date: "July 23,2022",
   ),
   DiscussionInfoModel(
     imageSrc: "assets/images/photo4.jpg",
-    name: "Karin Lumina",
-    date: "Jan 25,2021",
+    name: "Rajesh Kumar",
+    date: "July 23,2022",
   ),
   DiscussionInfoModel(
     imageSrc: "assets/images/photo5.jpg",
-    name: "Fandid Deadan",
-    date: "Jan 25,2021",
+    name: "Raj Kumar",
+    date: "July 23,2022",
   ),
   DiscussionInfoModel(
     imageSrc: "assets/images/photo1.jpg",
-    name: "Lutfhi Chan",
-    date: "Jan 25,2021",
+    name: "Rajesh Kumar",
+    date: "July 23,2022",
   ),
 ];
 
 List referalData = [
   ReferalInfoModel(
-    title: "Facebook",
+    title: "Approval host",
     count: 234,
-    svgSrc: "assets/icons/Facebook.svg",
+    svgSrc: "assets/icons/Subscribers.svg",
     color: primaryColor,
   ),
   ReferalInfoModel(
-    title: "Twitter",
+    title: "Rejected host",
     count: 234,
-    svgSrc: "assets/icons/Twitter.svg",
+    svgSrc: "assets/icons/Subscribers.svg",
     color: primaryColor,
   ),
   ReferalInfoModel(
-    title: "Linkedin",
+    title: "Pending host",
     count: 234,
-    svgSrc: "assets/icons/Linkedin.svg",
+    svgSrc: "assets/icons/Subscribers.svg",
     color: primaryColor,
   ),
 
-  ReferalInfoModel(
-    title: "Dribble",
-    count: 234,
-    svgSrc: "assets/icons/Dribbble.svg",
-    color: red,
-  ),
+  // ReferalInfoModel(
+  //   title: "Dribble",
+  //   count: 234,
+  //   svgSrc: "assets/icons/Dribbble.svg",
+  //   color: red,
+  // ),
 ];
